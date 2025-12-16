@@ -3,7 +3,6 @@ import Loading from "@/components/commons/Loading";
 import MovieCard from "@/components/commons/MovieCard";
 import { MoviesProps } from "@/interfaces";
 import { useCallback, useEffect, useState } from "react";
-import fetchMovies from "../api/fetch-movies";
 
 
 interface MProps {
